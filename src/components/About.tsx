@@ -5,21 +5,6 @@ const About = () => {
 	return (
 		<>
 			<section className="container about">
-				{/* <div className="row align-items-center">
-					<div className="col-12 pb-5">
-						<div className="d-flex navigation">
-							<a href="#aboutme" className="me-3" aria-current="page">
-								About Me
-							</a>
-							<a href="#work" className="me-3">
-								Work Experience
-							</a>
-							<a href="#projects" className="me-3">
-								Projects
-							</a>
-						</div>
-					</div>
-				</div> */}
 				<div id="aboutme" className="row border rounded">
 					<div className="col-12 bg-secondary">
 						<h3 className="w-100 my-2 text-white">About me</h3>

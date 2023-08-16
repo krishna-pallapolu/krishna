@@ -7,7 +7,7 @@ const Header = () => {
 				<div className="col-12 position-relative">
 					<h1>Krishna Pallapolu</h1>
 					<p>Technical Lead/Web Developer</p>
-					<p className="py-4">
+					<p className="py-3">
 						Having accumulated over 9 years of experience as a senior web developer and technical lead, I possess proficiency in crafting and executing intricate web applications using
 						diverse technologies and programming languages. My skill set encompasses both front-end and back-end development, coupled with adeptness in database design and testing. I am
 						not only a collaborative team player but also capable of autonomous work, ensuring comprehensive project delivery throughout the Software Development Life Cycle (SDLC).
