@@ -14,7 +14,7 @@ function App() {
 			<About />
 			<Experience />
 			<Projects />
-			<div>
+			<div className="container">
 				Contact me on <a href="tel:+919945789900">+919945789900</a>
 			</div>
 		</div>
