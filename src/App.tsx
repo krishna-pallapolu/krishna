@@ -14,7 +14,7 @@ function App() {
 			<About />
 			<Experience />
 			<Projects />
-			<div className="container">
+			<div className="container py-5">
 				Contact me on <a href="tel:+919945789900">+919945789900</a>
 			</div>
 		</div>
