@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/krishna/static/css/main.073c9b0a.css",
+    "main.js": "/krishna/static/js/main.b9064e8d.js",
+    "static/js/787.3d463dc6.chunk.js": "/krishna/static/js/787.3d463dc6.chunk.js",
+    "static/media/logo.svg": "/krishna/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/krishna/index.html",
+    "main.073c9b0a.css.map": "/krishna/static/css/main.073c9b0a.css.map",
+    "main.b9064e8d.js.map": "/krishna/static/js/main.b9064e8d.js.map",
+    "787.3d463dc6.chunk.js.map": "/krishna/static/js/787.3d463dc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b9064e8d.js"
+  ]
+}
