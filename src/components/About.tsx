@@ -37,15 +37,15 @@ const About = () => {
 
 						<div className="social-share d-flex align-items-center mt-3 ps-3">
 							{/* <!-- Facebook --> */}
-							<a className="btn btn-primary me-2" href="https://www.linkedin.com/in/krishna-pallapolu-b4552738/" target="_blank" role="button">
+							<a className="btn btn-primary me-2" href="https://www.linkedin.com/in/krishna-pallapolu-b4552738/" target="_blank" rel="noopener noreferrer" role="button">
 								<i className="bi bi-linkedin"></i>
 							</a>
 							{/* <!-- Google --> */}
-							<a className="btn btn-primary me-2" href="mailto: krishna.naidu24@gmail.com" target="_blank" role="button">
+							<a className="btn btn-primary me-2" href="mailto: krishna.naidu24@gmail.com" target="_blank" rel="noopener noreferrer" role="button">
 								<i className="bi bi-google"></i>
 							</a>
 							{/* <!-- Whatsapp --> */}
-							<a className="btn btn-primary" href="https://wa.me/+919945789900" target="_blank" role="button">
+							<a className="btn btn-primary" href="https://wa.me/+919945789900" target="_blank" rel="noopener noreferrer" role="button">
 								<i className="bi bi-whatsapp"></i>
 							</a>
 						</div>

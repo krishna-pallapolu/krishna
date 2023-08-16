@@ -16,7 +16,7 @@ const Accordion = ({ title, content, isOpen }) => {
             <div className="accordion-header py-3" onClick={toggleAccordion}>
                 {title}
             </div>
-            {isOpenState && <div className="accordion-content">{content}</div>}
+            {isOpenState && <div className="accordion-content p-3">{content}</div>}
         </div>
     );
 };
