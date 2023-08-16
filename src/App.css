@@ -1,7 +1,8 @@
-.App {
-  text-align: center;
-}
 
+#root {
+	background: #123456;
+    color: #fff;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +37,114 @@
     transform: rotate(360deg);
   }
 }
+
+/* ResponsiveMenu.css */
+.responsive-menu {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background-color: #123456;
+	padding: 15px;
+}
+  
+.menu-toggle {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+  
+.bar {
+	width: 25px;
+	height: 3px;
+	margin: 2px 0;
+	background-color: #FFF;
+	transition: transform 0.3s, opacity 0.3s;
+}
+  
+.menu-list {
+	padding: 5px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	background-color: #333;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	transform: translateY(-20px);
+	transition: opacity 0.3s, transform 0.3s;
+}
+  
+.menu-list.open {
+	opacity: 1;
+	transform: translateY(0);
+	background-color: #FFF;
+	z-index: 1;
+	
+}
+.menu-list.open li a{
+	color: #123456;
+}
+.menu-list li {
+	margin: 10px 0;
+	text-align: center;
+}
+  
+.menu-list a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+  
+@media (min-width: 768px) {
+	.menu-toggle {
+	    display: none;
+	}
+  
+	.menu-list {
+	    position: static;
+	    flex-direction: row;
+	    background-color: transparent;
+	    opacity: 1;
+	    transform: translateY(0);
+	    margin: 0px;
+		color: #282c34;
+		justify-content: center;
+	}
+  
+	.menu-list li {
+	    margin: 0 15px;
+	}
+}
+.profile_pic {
+	border-radius: 20px;
+}
+
+.accordion.active {
+
+	.accordion-header {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		margin-top: 15px;
+	}
+}
+.accordion-header {
+	background-color: #eee;
+	border-radius: 10px;
+	color: #123;
+	padding: 10px;
+	margin-top: 15px;
+}
+.accordion-content {
+	background-color: #fafafa;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #123;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
