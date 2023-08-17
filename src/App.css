@@ -49,6 +49,7 @@
 	align-items: center;
 	background-color: #123456;
 	padding: 10px;
+	box-shadow: 0 5px 5px 0px rgba(255,255,255,.2);
 }
   
 .menu-toggle {

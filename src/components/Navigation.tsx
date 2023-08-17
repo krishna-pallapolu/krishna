@@ -26,33 +26,35 @@ const Navigation = () => {
 	}, []);
 
 	return (
-		<div className="responsive-menu container">
-			<div className={`menu-toggle ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
-				<div className="bar"></div>
-				<div className="bar"></div>
-				<div className="bar"></div>
-			</div>
-			<div className={`menu-wrapper d-flex align-items-center ${menuOpen ? "open" : ""}`}>
-				<div className="logo_header">
-					<img width={180} height={40} src="https://i.imgur.com/bkAfs7u.png" alt="" />
+		<div className="responsive-menu">
+			<div className="container">
+				<div className={`menu-toggle ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
+					<div className="bar"></div>
+					<div className="bar"></div>
+					<div className="bar"></div>
 				</div>
-				<ul className="d-flex flex-column flex-md-row aligne-items-center">
-					<li>
-						<Link to="/" className={location.pathname === "/" ? "active" : ""}>
-							Home
-						</Link>
-					</li>
-					<li>
-						<Link to="/todo" className={location.pathname === "/todo" ? "active" : ""}>
-							Todo
-						</Link>
-					</li>
-					<li>
-						<Link to="/blogs" className={location.pathname === "/blogs" ? "active" : ""}>
-							Blogs
-						</Link>
-					</li>
-				</ul>
+				<div className={`menu-wrapper d-flex align-items-center ${menuOpen ? "open" : ""}`}>
+					<div className="logo_header">
+						<img width={180} height={40} src="https://i.imgur.com/bkAfs7u.png" alt="" />
+					</div>
+					<ul className="d-flex flex-column flex-md-row aligne-items-center">
+						<li>
+							<Link to="/" className={location.pathname === "/" ? "active" : ""}>
+								Home
+							</Link>
+						</li>
+						<li>
+							<Link to="/todo" className={location.pathname === "/todo" ? "active" : ""}>
+								Todo
+							</Link>
+						</li>
+						<li>
+							<Link to="/blogs" className={location.pathname === "/blogs" ? "active" : ""}>
+								Blogs
+							</Link>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);
