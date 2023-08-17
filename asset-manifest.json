@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/krishna/static/css/main.48d83931.css",
-    "main.js": "/krishna/static/js/main.18aa9870.js",
+    "main.css": "/krishna/static/css/main.679d117d.css",
+    "main.js": "/krishna/static/js/main.54008755.js",
     "static/js/787.3d463dc6.chunk.js": "/krishna/static/js/787.3d463dc6.chunk.js",
     "static/media/bootstrap-icons.woff?": "/krishna/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/krishna/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/krishna/index.html",
-    "main.48d83931.css.map": "/krishna/static/css/main.48d83931.css.map",
-    "main.18aa9870.js.map": "/krishna/static/js/main.18aa9870.js.map",
+    "main.679d117d.css.map": "/krishna/static/css/main.679d117d.css.map",
+    "main.54008755.js.map": "/krishna/static/js/main.54008755.js.map",
     "787.3d463dc6.chunk.js.map": "/krishna/static/js/787.3d463dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48d83931.css",
-    "static/js/main.18aa9870.js"
+    "static/css/main.679d117d.css",
+    "static/js/main.54008755.js"
   ]
 }
