@@ -2,6 +2,7 @@
 #root {
 	background: #123456;
     color: #fff;
+    min-height: 100vh;
 }
 .App-logo {
   height: 40vmin;
@@ -47,7 +48,7 @@
 	display: flex;
 	align-items: center;
 	background-color: #123456;
-	padding: 15px;
+	padding: 10px;
 }
   
 .menu-toggle {
@@ -64,7 +65,7 @@
 	transition: transform 0.3s, opacity 0.3s;
 }
   
-.menu-list {
+.menu-wrapper {
 	padding: 5px;
 	list-style: none;
 	display: flex;
@@ -79,25 +80,31 @@
 	transition: opacity 0.3s, transform 0.3s;
 }
   
-.menu-list.open {
+.menu-wrapper.open {
 	opacity: 1;
 	transform: translateY(0);
 	background-color: #FFF;
 	z-index: 1;
 	
 }
-.menu-list.open li a{
+.menu-wrapper ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 600;
+}
+.menu-wrapper.open li a{
 	color: #123456;
 }
-.menu-list li {
+.menu-wrapper li {
 	margin: 10px 0;
 	text-align: center;
 }
   
-.menu-list a {
+.menu-wrapper a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 600;
 }
   
@@ -106,7 +113,7 @@
 	    display: none;
 	}
   
-	.menu-list {
+	.menu-wrapper {
 	    position: static;
 	    flex-direction: row;
 	    background-color: transparent;
@@ -114,12 +121,17 @@
 	    transform: translateY(0);
 	    margin: 0px;
 		color: #282c34;
-		justify-content: center;
+	}
+	.menu-wrapper ul {
+		list-style: none;
+		margin-bottom: 0px;
+
 	}
   
-	.menu-list li {
+	.menu-wrapper ul li {
 	    margin: 0 15px;
 	}
+	
 }
 .profile_pic {
 	border-radius: 20px;
@@ -151,7 +163,31 @@
 }
 /* Further additions here */
 .taskpage,
-.krishna-ts {
+.krishna-ts,
+.krishna {
 	height: 100vh;
 
+}
+.taskpage input {
+	padding: 5px;
+
+}
+.taskpage button {
+	border: none;
+    outline: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.logo_header {
+	max-height: 100%;
+	max-width: 100%;
+	width:180px;
+	height:40px;
+	background-size: cover;
+	background-image: url('https://i.imgur.com/bkAfs7u.png');
+	background-position: center center;
+}
+.logo_header img {
+	opacity: 0;
+	visibility: hidden;
 }

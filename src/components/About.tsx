@@ -5,7 +5,7 @@ const About = () => {
 	return (
 		<>
 			<section className="container about">
-				<div id="aboutme" className="row border rounded">
+				<div id="aboutme" className="row mx-0 border rounded">
 					<div className="col-12 bg-secondary">
 						<h3 className="w-100 my-2 text-white">About me</h3>
 					</div>
@@ -58,7 +58,7 @@ const About = () => {
 								<td>Technical Lead / Senior Web Developer</td>
 							</tr>
 						</table>
-						<div id="resume" className="position-absolute d-flex align-items-center">
+						<div id="resume" className="d-flex align-items-center">
 							<h4 className="m-0">Download resume</h4>
 							<a className="m-3" href="Krishna_Pallapolu_Resume_2023.pdf" download>
 								<i className="bi bi-file-earmark-pdf"></i>

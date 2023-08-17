@@ -21,7 +21,7 @@ function TodoApp() {
 
 	return (
 		<div className="container">
-			<h1>To-Do List</h1>
+			<h2 className="mb-4">To-Do List</h2>
 			<input type="text" placeholder="Enter task" value={task} onChange={(e) => setTask(e.target.value)} />
 			<button onClick={addTask}>Add Task</button>
 			<ul>

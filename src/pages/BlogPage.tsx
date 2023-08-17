@@ -4,7 +4,7 @@ const BlogPage = () => {
 	const blogPosts = [
 		{
 			id: 1,
-			title: "Launching a Portfolio Website on GitHub Pages Using React and TypeScript",
+			title: "1. Launching a Portfolio Website on GitHub Pages Using React and TypeScript",
 			excerpt: "Deply React portfolio site on Github Pages",
 			content: (
 				<div>
@@ -20,6 +20,7 @@ const BlogPage = () => {
 						<br /> Setting up the development environment. Creating a Responsive Menu: Building a responsive hamburger menu without using UI libraries. Using state and hooks to manage menu
 						behavior. <br />
 						Adding a To-Do Page: Integrating a to-do list page into your portfolio. Using React Router to create multiple pages within your single-page app. <br />
+						<br />
 						Deployment on GitHub Pages: Setting up a GitHub repository for your portfolio. Configuring the deployment process using gh-pages package. Troubleshooting deployment issues and
 						ensuring your site updates correctly.
 					</div>

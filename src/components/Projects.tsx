@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
 	return (
-		<section id="projects" className="projects container pb-5 mb-5">
+		<section id="projects" className="projects container pb-5">
 			<h2>Projects</h2>
 			{/* Create and map project items */}
 			{/* Example: */}
