@@ -40,7 +40,10 @@
 
 /* ResponsiveMenu.css */
 .responsive-menu {
-	position: relative;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 9;
 	display: flex;
 	align-items: center;
 	background-color: #123456;
@@ -147,7 +150,8 @@
 	margin-bottom: 10px;
 }
 /* Further additions here */
-.taskpage {
+.taskpage,
+.krishna-ts {
 	height: 100vh;
 
 }

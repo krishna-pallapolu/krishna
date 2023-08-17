@@ -51,6 +51,11 @@ const Navigation = () => {
 						Todo
 					</Link>
 				</li>
+				<li>
+					<Link to="/blogs" className={location.pathname === "/blogs" ? "active" : ""}>
+						Blogs
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
